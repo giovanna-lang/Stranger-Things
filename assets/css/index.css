@@ -1,0 +1,39 @@
+@import url('global.css');
+
+
+
+
+
+main{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+    }
+
+
+
+
+
+    @media screen and (max-width:375px) {
+         img {
+             display: flex;
+             width: 300px;
+             height: 200px;
+            }
+        
+    }
+
+    @media (min-width:376px) and (max-width:767px) {
+        
+    }
+
+
+    @media (min-width:768px) and (max-width:1024px) {
+        
+    }
+
+
+
+
+

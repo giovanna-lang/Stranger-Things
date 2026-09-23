@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.alumni-sans-inline-one-regular {
+  font-family: "Alumni Sans Inline One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+    font-family: "Monoton";
+}
+
+h2{
+    font-family: "Monoton";
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #FDEB9E;
+    font-family: "Alumni Sans Inline One";
+    font-size: 30px;
+    text-align: center;
+}
+
+#ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+h1 {
+    height: 100px;
+    background-color: #BE1A1A;
+   font-family: "Monoton";
+   font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+     height: 100px;
+     background-color: #BE1A1A;
+     font-family: "Monoton";
+     font-size: 30px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+
+
+#main-01 {
+    height: 800px;
+    background-color: #FF9843;
+    font-family: "Alumni Sans Inline One";
+    font-size: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#div-01 {
+    background-color: #FF9843;
+    font-family: "Alumni Sans Inline One";
+    font-size: 25px;
+    border: 6px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#div-02{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+#main-04 {
+    height: 850px;
+    background-color: #FF9843;
+    font-family: "Alumni Sans Inline One";
+    font-size: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h3 {
+    background-color: #FF9843;
+    font-family: monoton;
+    font-size: 25px;
+}
+
+#article-02 {
+    width:700px;
+    height:150px;
+    background-color: #FDEB9E;
+    font-family: "Alumni Sans Inline One";
+    text-align: justify;
+    font-size:17px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+aside { 
+     height: 50px;
+     background-color: #DEFF8B;
+     font-family: "Monoton";
+     font-size: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+}
+
+footer {
+    height: 7vh;
+    background-color: #2C3947;
+    font-family: "Alumni Sans Inline One";
+    color: azure;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer span a {
+    text-decoration: none;
+    color: azure;
+}
+
+   
+
+    @media screen and (max-width:375px) {
+        #main-01 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 360px;
+            height: 1130px;
+        }
+
+        #main-03 {
+            display: flex;
+            flex-direction: column;    
+            align-items: center;
+            width: 350px;
+            height: 1800px;
+        }
+
+        #main-04 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 360px;
+            height: 850px;
+        }
+
+        img{
+            width: 320px;
+            
+        }
+
+        #article-02{
+            width: 340px;
+            height: 200px;
+            align-items: center;
+            justify-content: baseline;
+        }
+
+       
+
+
+    }
+
+    @media (min-width:376px) and (max-width:767px) {
+        
+    }
+
+
+    @media (min-width:768px) and (max-width:1024px) {
+        
+    }
+
+
